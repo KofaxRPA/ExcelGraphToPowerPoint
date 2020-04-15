@@ -32,7 +32,7 @@
         </property>
         <property name="assignments" class="AttributeAssignments">
           <property name="value" class="AttributeAssignment">
-            <property name="attributeValue" class="String">Z:\project\20200331 Excel2Powerpoint Robot for Analyst IDC\RPA Excel to PPT Chart Eval.xlsx</property>
+            <property name="attributeValue" class="String">Z:\Excel2Powerpoint\input.xlsx</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" class="java.lang.Class">kapow.robot.plugin.common.domain.StringAttributeType</property>
           </property>
