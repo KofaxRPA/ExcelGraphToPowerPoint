@@ -12933,7 +12933,7 @@
                                                         "version":0
                                                       },
                                                       "gizmo":{
-                                                        "customName": { "string": "TODO: Stacked Bar" }
+                                                        "customName": { "string": "Stacked Bar" }
                                                       }
                                                     },
                                                     "comment": {
