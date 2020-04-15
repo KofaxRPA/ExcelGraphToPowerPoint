@@ -13858,8 +13858,8 @@
                                                         },
                                                         {
                                                           "meta":{
-                                                            "className":"SuspendApplicationTreeUpdatesStep",
-                                                            "version":1
+                                                            "className":"GroupStep",
+                                                            "version":4
                                                           },
                                                           "gizmo":{
                                                             "name": {
@@ -13868,7 +13868,7 @@
                                                                 "version":0
                                                               },
                                                               "gizmo":{
-                                                                "customName": { "string": "" }
+                                                                "customName": { "string": "Delete Title" }
                                                               }
                                                             },
                                                             "comment": {
@@ -13880,40 +13880,7 @@
                                                                 "comment": { "string": "" }
                                                               }
                                                             },
-                                                            "finder": {
-                                                              "meta":{
-                                                                "className":"ApplicationFinderWithName",
-                                                                "version":5
-                                                              },
-                                                              "gizmo":{
-                                                                "name": {
-                                                                  "meta":{
-                                                                    "className":"FinderName",
-                                                                    "version":0
-                                                                  },
-                                                                  "gizmo":{
-                                                                    "id": { "string": "" }
-                                                                  }
-                                                                },
-                                                                "finder": {
-                                                                  "meta":{
-                                                                    "className":"ApplicationReference",
-                                                                    "version":0
-                                                                  },
-                                                                  "gizmo":{
-                                                                    "reference": {
-                                                                      "meta":{
-                                                                        "className":"PreviousFinderReference",
-                                                                        "version":0
-                                                                      },
-                                                                      "gizmo":{
-                                                                        
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            },
+                                                            "variables": [],
                                                             "block": {
                                                               "meta":{
                                                                 "className":"Block",
@@ -13922,8 +13889,8 @@
                                                               "gizmo":{
                                                                 "steps": [{
                                                                   "meta":{
-                                                                    "className":"GroupStep",
-                                                                    "version":4
+                                                                    "className":"PressKeyStep",
+                                                                    "version":1
                                                                   },
                                                                   "gizmo":{
                                                                     "name": {
@@ -13932,7 +13899,7 @@
                                                                         "version":0
                                                                       },
                                                                       "gizmo":{
-                                                                        "customName": { "string": "Delete Title" }
+                                                                        "customName": { "string": "Press Enter" }
                                                                       }
                                                                     },
                                                                     "comment": {
@@ -13944,199 +13911,75 @@
                                                                         "comment": { "string": "" }
                                                                       }
                                                                     },
-                                                                    "variables": [],
-                                                                    "block": {
+                                                                    "finder": {
                                                                       "meta":{
-                                                                        "className":"Block",
-                                                                        "version":2
+                                                                        "className":"ApplicationFinderWithName",
+                                                                        "version":5
                                                                       },
                                                                       "gizmo":{
-                                                                        "steps": [{
+                                                                        "name": {
                                                                           "meta":{
-                                                                            "className":"PressKeyStep",
-                                                                            "version":1
+                                                                            "className":"FinderName",
+                                                                            "version":0
                                                                           },
                                                                           "gizmo":{
-                                                                            "name": {
-                                                                              "meta":{
-                                                                                "className":"StepName",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "customName": { "string": "Press Enter" }
-                                                                              }
-                                                                            },
-                                                                            "comment": {
-                                                                              "meta":{
-                                                                                "className":"StepComment",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "comment": { "string": "" }
-                                                                              }
-                                                                            },
-                                                                            "finder": {
-                                                                              "meta":{
-                                                                                "className":"ApplicationFinderWithName",
-                                                                                "version":5
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "name": {
-                                                                                  "meta":{
-                                                                                    "className":"FinderName",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "id": { "string": "" }
-                                                                                  }
-                                                                                },
-                                                                                "finder": {
-                                                                                  "meta":{
-                                                                                    "className":"ApplicationReference",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "reference": {
-                                                                                      "meta":{
-                                                                                        "className":"PreviousFinderReference",
-                                                                                        "version":0
-                                                                                      },
-                                                                                      "gizmo":{
-                                                                                        
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            },
-                                                                            "key": {
-                                                                              "meta":{
-                                                                                "className":"FixedKey",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "virtualKeyCode": { "string": "VK_RETURN" }
-                                                                              }
-                                                                            },
-                                                                            "modifier": {
-                                                                              "meta":{
-                                                                                "className":"FixedKeyModifier",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "shift": { "boolean": "false" },
-                                                                                "ctrl": { "boolean": "false" },
-                                                                                "alt": { "boolean": "false" }
-                                                                              }
-                                                                            },
-                                                                            "count": {
-                                                                              "meta":{
-                                                                                "className":"Expression",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "text": { "string": "1" }
-                                                                              }
-                                                                            }
+                                                                            "id": { "string": "" }
                                                                           }
                                                                         },
-                                                                        {
+                                                                        "finder": {
                                                                           "meta":{
-                                                                            "className":"PressKeyStep",
-                                                                            "version":1
+                                                                            "className":"ApplicationReference",
+                                                                            "version":0
                                                                           },
                                                                           "gizmo":{
-                                                                            "name": {
+                                                                            "reference": {
                                                                               "meta":{
-                                                                                "className":"StepName",
+                                                                                "className":"PreviousFinderReference",
                                                                                 "version":0
                                                                               },
                                                                               "gizmo":{
-                                                                                "customName": { "string": "Press Delete" }
-                                                                              }
-                                                                            },
-                                                                            "comment": {
-                                                                              "meta":{
-                                                                                "className":"StepComment",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "comment": { "string": "" }
-                                                                              }
-                                                                            },
-                                                                            "finder": {
-                                                                              "meta":{
-                                                                                "className":"ApplicationFinderWithName",
-                                                                                "version":5
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "name": {
-                                                                                  "meta":{
-                                                                                    "className":"FinderName",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "id": { "string": "" }
-                                                                                  }
-                                                                                },
-                                                                                "finder": {
-                                                                                  "meta":{
-                                                                                    "className":"ApplicationReference",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "reference": {
-                                                                                      "meta":{
-                                                                                        "className":"PreviousFinderReference",
-                                                                                        "version":0
-                                                                                      },
-                                                                                      "gizmo":{
-                                                                                        
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            },
-                                                                            "key": {
-                                                                              "meta":{
-                                                                                "className":"FixedKey",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "virtualKeyCode": { "string": "VK_DELETE" }
-                                                                              }
-                                                                            },
-                                                                            "modifier": {
-                                                                              "meta":{
-                                                                                "className":"FixedKeyModifier",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "shift": { "boolean": "false" },
-                                                                                "ctrl": { "boolean": "false" },
-                                                                                "alt": { "boolean": "false" }
-                                                                              }
-                                                                            },
-                                                                            "count": {
-                                                                              "meta":{
-                                                                                "className":"Expression",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "text": { "string": "1" }
+                                                                                
                                                                               }
                                                                             }
                                                                           }
-                                                                        }]
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "key": {
+                                                                      "meta":{
+                                                                        "className":"FixedKey",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "virtualKeyCode": { "string": "VK_RETURN" }
+                                                                      }
+                                                                    },
+                                                                    "modifier": {
+                                                                      "meta":{
+                                                                        "className":"FixedKeyModifier",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "shift": { "boolean": "false" },
+                                                                        "ctrl": { "boolean": "false" },
+                                                                        "alt": { "boolean": "false" }
+                                                                      }
+                                                                    },
+                                                                    "count": {
+                                                                      "meta":{
+                                                                        "className":"Expression",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "text": { "string": "1" }
                                                                       }
                                                                     }
                                                                   }
                                                                 },
                                                                 {
                                                                   "meta":{
-                                                                    "className":"GroupStep",
-                                                                    "version":4
+                                                                    "className":"PressKeyStep",
+                                                                    "version":1
                                                                   },
                                                                   "gizmo":{
                                                                     "name": {
@@ -14145,7 +13988,7 @@
                                                                         "version":0
                                                                       },
                                                                       "gizmo":{
-                                                                        "customName": { "string": "Delete Legend" }
+                                                                        "customName": { "string": "Press Delete" }
                                                                       }
                                                                     },
                                                                     "comment": {
@@ -14157,191 +14000,280 @@
                                                                         "comment": { "string": "" }
                                                                       }
                                                                     },
-                                                                    "variables": [],
-                                                                    "block": {
+                                                                    "finder": {
                                                                       "meta":{
-                                                                        "className":"Block",
-                                                                        "version":2
+                                                                        "className":"ApplicationFinderWithName",
+                                                                        "version":5
                                                                       },
                                                                       "gizmo":{
-                                                                        "steps": [{
+                                                                        "name": {
                                                                           "meta":{
-                                                                            "className":"PressKeyStep",
-                                                                            "version":1
+                                                                            "className":"FinderName",
+                                                                            "version":0
                                                                           },
                                                                           "gizmo":{
-                                                                            "name": {
-                                                                              "meta":{
-                                                                                "className":"StepName",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "customName": { "string": "Press Enter" }
-                                                                              }
-                                                                            },
-                                                                            "comment": {
-                                                                              "meta":{
-                                                                                "className":"StepComment",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "comment": { "string": "" }
-                                                                              }
-                                                                            },
-                                                                            "finder": {
-                                                                              "meta":{
-                                                                                "className":"ApplicationFinderWithName",
-                                                                                "version":5
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "name": {
-                                                                                  "meta":{
-                                                                                    "className":"FinderName",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "id": { "string": "" }
-                                                                                  }
-                                                                                },
-                                                                                "finder": {
-                                                                                  "meta":{
-                                                                                    "className":"ApplicationReference",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "reference": {
-                                                                                      "meta":{
-                                                                                        "className":"PreviousFinderReference",
-                                                                                        "version":0
-                                                                                      },
-                                                                                      "gizmo":{
-                                                                                        
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            },
-                                                                            "key": {
-                                                                              "meta":{
-                                                                                "className":"FixedKey",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "virtualKeyCode": { "string": "VK_RETURN" }
-                                                                              }
-                                                                            },
-                                                                            "modifier": {
-                                                                              "meta":{
-                                                                                "className":"FixedKeyModifier",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "shift": { "boolean": "false" },
-                                                                                "ctrl": { "boolean": "false" },
-                                                                                "alt": { "boolean": "false" }
-                                                                              }
-                                                                            },
-                                                                            "count": {
-                                                                              "meta":{
-                                                                                "className":"Expression",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "text": { "string": "1" }
-                                                                              }
-                                                                            }
+                                                                            "id": { "string": "" }
                                                                           }
                                                                         },
-                                                                        {
+                                                                        "finder": {
                                                                           "meta":{
-                                                                            "className":"PressKeyStep",
-                                                                            "version":1
+                                                                            "className":"ApplicationReference",
+                                                                            "version":0
                                                                           },
                                                                           "gizmo":{
-                                                                            "name": {
+                                                                            "reference": {
                                                                               "meta":{
-                                                                                "className":"StepName",
+                                                                                "className":"PreviousFinderReference",
                                                                                 "version":0
                                                                               },
                                                                               "gizmo":{
-                                                                                "customName": { "string": "Press Delete" }
-                                                                              }
-                                                                            },
-                                                                            "comment": {
-                                                                              "meta":{
-                                                                                "className":"StepComment",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "comment": { "string": "" }
-                                                                              }
-                                                                            },
-                                                                            "finder": {
-                                                                              "meta":{
-                                                                                "className":"ApplicationFinderWithName",
-                                                                                "version":5
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "name": {
-                                                                                  "meta":{
-                                                                                    "className":"FinderName",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "id": { "string": "" }
-                                                                                  }
-                                                                                },
-                                                                                "finder": {
-                                                                                  "meta":{
-                                                                                    "className":"ApplicationReference",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "reference": {
-                                                                                      "meta":{
-                                                                                        "className":"PreviousFinderReference",
-                                                                                        "version":0
-                                                                                      },
-                                                                                      "gizmo":{
-                                                                                        
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            },
-                                                                            "key": {
-                                                                              "meta":{
-                                                                                "className":"FixedKey",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "virtualKeyCode": { "string": "VK_DELETE" }
-                                                                              }
-                                                                            },
-                                                                            "modifier": {
-                                                                              "meta":{
-                                                                                "className":"FixedKeyModifier",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "shift": { "boolean": "false" },
-                                                                                "ctrl": { "boolean": "false" },
-                                                                                "alt": { "boolean": "false" }
-                                                                              }
-                                                                            },
-                                                                            "count": {
-                                                                              "meta":{
-                                                                                "className":"Expression",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "text": { "string": "1" }
+                                                                                
                                                                               }
                                                                             }
                                                                           }
-                                                                        }]
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "key": {
+                                                                      "meta":{
+                                                                        "className":"FixedKey",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "virtualKeyCode": { "string": "VK_DELETE" }
+                                                                      }
+                                                                    },
+                                                                    "modifier": {
+                                                                      "meta":{
+                                                                        "className":"FixedKeyModifier",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "shift": { "boolean": "false" },
+                                                                        "ctrl": { "boolean": "false" },
+                                                                        "alt": { "boolean": "false" }
+                                                                      }
+                                                                    },
+                                                                    "count": {
+                                                                      "meta":{
+                                                                        "className":"Expression",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "text": { "string": "1" }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }]
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "meta":{
+                                                            "className":"GroupStep",
+                                                            "version":4
+                                                          },
+                                                          "gizmo":{
+                                                            "name": {
+                                                              "meta":{
+                                                                "className":"StepName",
+                                                                "version":0
+                                                              },
+                                                              "gizmo":{
+                                                                "customName": { "string": "Delete Legend" }
+                                                              }
+                                                            },
+                                                            "comment": {
+                                                              "meta":{
+                                                                "className":"StepComment",
+                                                                "version":0
+                                                              },
+                                                              "gizmo":{
+                                                                "comment": { "string": "" }
+                                                              }
+                                                            },
+                                                            "variables": [],
+                                                            "block": {
+                                                              "meta":{
+                                                                "className":"Block",
+                                                                "version":2
+                                                              },
+                                                              "gizmo":{
+                                                                "steps": [{
+                                                                  "meta":{
+                                                                    "className":"PressKeyStep",
+                                                                    "version":1
+                                                                  },
+                                                                  "gizmo":{
+                                                                    "name": {
+                                                                      "meta":{
+                                                                        "className":"StepName",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "customName": { "string": "Press Enter" }
+                                                                      }
+                                                                    },
+                                                                    "comment": {
+                                                                      "meta":{
+                                                                        "className":"StepComment",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "comment": { "string": "" }
+                                                                      }
+                                                                    },
+                                                                    "finder": {
+                                                                      "meta":{
+                                                                        "className":"ApplicationFinderWithName",
+                                                                        "version":5
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "name": {
+                                                                          "meta":{
+                                                                            "className":"FinderName",
+                                                                            "version":0
+                                                                          },
+                                                                          "gizmo":{
+                                                                            "id": { "string": "" }
+                                                                          }
+                                                                        },
+                                                                        "finder": {
+                                                                          "meta":{
+                                                                            "className":"ApplicationReference",
+                                                                            "version":0
+                                                                          },
+                                                                          "gizmo":{
+                                                                            "reference": {
+                                                                              "meta":{
+                                                                                "className":"PreviousFinderReference",
+                                                                                "version":0
+                                                                              },
+                                                                              "gizmo":{
+                                                                                
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "key": {
+                                                                      "meta":{
+                                                                        "className":"FixedKey",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "virtualKeyCode": { "string": "VK_RETURN" }
+                                                                      }
+                                                                    },
+                                                                    "modifier": {
+                                                                      "meta":{
+                                                                        "className":"FixedKeyModifier",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "shift": { "boolean": "false" },
+                                                                        "ctrl": { "boolean": "false" },
+                                                                        "alt": { "boolean": "false" }
+                                                                      }
+                                                                    },
+                                                                    "count": {
+                                                                      "meta":{
+                                                                        "className":"Expression",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "text": { "string": "1" }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "meta":{
+                                                                    "className":"PressKeyStep",
+                                                                    "version":1
+                                                                  },
+                                                                  "gizmo":{
+                                                                    "name": {
+                                                                      "meta":{
+                                                                        "className":"StepName",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "customName": { "string": "Press Delete" }
+                                                                      }
+                                                                    },
+                                                                    "comment": {
+                                                                      "meta":{
+                                                                        "className":"StepComment",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "comment": { "string": "" }
+                                                                      }
+                                                                    },
+                                                                    "finder": {
+                                                                      "meta":{
+                                                                        "className":"ApplicationFinderWithName",
+                                                                        "version":5
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "name": {
+                                                                          "meta":{
+                                                                            "className":"FinderName",
+                                                                            "version":0
+                                                                          },
+                                                                          "gizmo":{
+                                                                            "id": { "string": "" }
+                                                                          }
+                                                                        },
+                                                                        "finder": {
+                                                                          "meta":{
+                                                                            "className":"ApplicationReference",
+                                                                            "version":0
+                                                                          },
+                                                                          "gizmo":{
+                                                                            "reference": {
+                                                                              "meta":{
+                                                                                "className":"PreviousFinderReference",
+                                                                                "version":0
+                                                                              },
+                                                                              "gizmo":{
+                                                                                
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "key": {
+                                                                      "meta":{
+                                                                        "className":"FixedKey",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "virtualKeyCode": { "string": "VK_DELETE" }
+                                                                      }
+                                                                    },
+                                                                    "modifier": {
+                                                                      "meta":{
+                                                                        "className":"FixedKeyModifier",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "shift": { "boolean": "false" },
+                                                                        "ctrl": { "boolean": "false" },
+                                                                        "alt": { "boolean": "false" }
+                                                                      }
+                                                                    },
+                                                                    "count": {
+                                                                      "meta":{
+                                                                        "className":"Expression",
+                                                                        "version":0
+                                                                      },
+                                                                      "gizmo":{
+                                                                        "text": { "string": "1" }
                                                                       }
                                                                     }
                                                                   }
