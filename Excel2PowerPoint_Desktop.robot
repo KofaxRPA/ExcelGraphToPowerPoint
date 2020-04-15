@@ -9060,11 +9060,11 @@
                                                                                       "gizmo":{
                                                                                         "reference": {
                                                                                           "meta":{
-                                                                                            "className":"NamedFinderReference",
+                                                                                            "className":"PreviousFinderReference",
                                                                                             "version":0
                                                                                           },
                                                                                           "gizmo":{
-                                                                                            "id": { "string": "Excel" }
+                                                                                            
                                                                                           }
                                                                                         }
                                                                                       }
@@ -9576,11 +9576,11 @@
                                                                               "gizmo":{
                                                                                 "reference": {
                                                                                   "meta":{
-                                                                                    "className":"NamedFinderReference",
+                                                                                    "className":"PreviousFinderReference",
                                                                                     "version":0
                                                                                   },
                                                                                   "gizmo":{
-                                                                                    "id": { "string": "Excel" }
+                                                                                    
                                                                                   }
                                                                                 }
                                                                               }
@@ -10172,11 +10172,11 @@
                                                                               "gizmo":{
                                                                                 "reference": {
                                                                                   "meta":{
-                                                                                    "className":"NamedFinderReference",
+                                                                                    "className":"PreviousFinderReference",
                                                                                     "version":0
                                                                                   },
                                                                                   "gizmo":{
-                                                                                    "id": { "string": "Excel" }
+                                                                                    
                                                                                   }
                                                                                 }
                                                                               }
@@ -10428,11 +10428,11 @@
                                                                               "gizmo":{
                                                                                 "reference": {
                                                                                   "meta":{
-                                                                                    "className":"NamedFinderReference",
+                                                                                    "className":"PreviousFinderReference",
                                                                                     "version":0
                                                                                   },
                                                                                   "gizmo":{
-                                                                                    "id": { "string": "Excel" }
+                                                                                    
                                                                                   }
                                                                                 }
                                                                               }
@@ -10684,11 +10684,11 @@
                                                                               "gizmo":{
                                                                                 "reference": {
                                                                                   "meta":{
-                                                                                    "className":"NamedFinderReference",
+                                                                                    "className":"PreviousFinderReference",
                                                                                     "version":0
                                                                                   },
                                                                                   "gizmo":{
-                                                                                    "id": { "string": "Excel" }
+                                                                                    
                                                                                   }
                                                                                 }
                                                                               }
@@ -11040,34 +11040,17 @@
                                                                           "gizmo":{
                                                                             "applicationFinder": {
                                                                               "meta":{
-                                                                                "className":"ApplicationDescriptor",
-                                                                                "version":1
+                                                                                "className":"ApplicationReference",
+                                                                                "version":0
                                                                               },
                                                                               "gizmo":{
-                                                                                "deviceFinder": {
+                                                                                "reference": {
                                                                                   "meta":{
-                                                                                    "className":"DeviceReference",
+                                                                                    "className":"PreviousFinderReference",
                                                                                     "version":0
                                                                                   },
                                                                                   "gizmo":{
-                                                                                    "reference": {
-                                                                                      "meta":{
-                                                                                        "className":"NamedFinderReference",
-                                                                                        "version":0
-                                                                                      },
-                                                                                      "gizmo":{
-                                                                                        "id": { "string": "Office365" }
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                },
-                                                                                "applicationSelector": {
-                                                                                  "meta":{
-                                                                                    "className":"Expression",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "text": { "string": "EXCEL.EXE" }
+                                                                                    
                                                                                   }
                                                                                 }
                                                                               }
@@ -11313,34 +11296,17 @@
                                                                           "gizmo":{
                                                                             "applicationFinder": {
                                                                               "meta":{
-                                                                                "className":"ApplicationDescriptor",
-                                                                                "version":1
+                                                                                "className":"ApplicationReference",
+                                                                                "version":0
                                                                               },
                                                                               "gizmo":{
-                                                                                "deviceFinder": {
+                                                                                "reference": {
                                                                                   "meta":{
-                                                                                    "className":"DeviceReference",
+                                                                                    "className":"PreviousFinderReference",
                                                                                     "version":0
                                                                                   },
                                                                                   "gizmo":{
-                                                                                    "reference": {
-                                                                                      "meta":{
-                                                                                        "className":"NamedFinderReference",
-                                                                                        "version":0
-                                                                                      },
-                                                                                      "gizmo":{
-                                                                                        "id": { "string": "Office365" }
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                },
-                                                                                "applicationSelector": {
-                                                                                  "meta":{
-                                                                                    "className":"Expression",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "text": { "string": "EXCEL.EXE" }
+                                                                                    
                                                                                   }
                                                                                 }
                                                                               }
@@ -11586,34 +11552,17 @@
                                                                           "gizmo":{
                                                                             "applicationFinder": {
                                                                               "meta":{
-                                                                                "className":"ApplicationDescriptor",
-                                                                                "version":1
+                                                                                "className":"ApplicationReference",
+                                                                                "version":0
                                                                               },
                                                                               "gizmo":{
-                                                                                "deviceFinder": {
+                                                                                "reference": {
                                                                                   "meta":{
-                                                                                    "className":"DeviceReference",
+                                                                                    "className":"PreviousFinderReference",
                                                                                     "version":0
                                                                                   },
                                                                                   "gizmo":{
-                                                                                    "reference": {
-                                                                                      "meta":{
-                                                                                        "className":"NamedFinderReference",
-                                                                                        "version":0
-                                                                                      },
-                                                                                      "gizmo":{
-                                                                                        "id": { "string": "Office365" }
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                },
-                                                                                "applicationSelector": {
-                                                                                  "meta":{
-                                                                                    "className":"Expression",
-                                                                                    "version":0
-                                                                                  },
-                                                                                  "gizmo":{
-                                                                                    "text": { "string": "EXCEL.EXE" }
+                                                                                    
                                                                                   }
                                                                                 }
                                                                               }
