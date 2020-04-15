@@ -3860,6 +3860,24 @@
                   }
                 }
               }
+            },
+            {
+              "meta":{
+                "className":"VariableDef",
+                "version":0
+              },
+              "gizmo":{
+                "id": { "string": "Graphics" },
+                "typ": {
+                  "meta":{
+                    "className":"TypeUse",
+                    "version":0
+                  },
+                  "gizmo":{
+                    "id": { "string": "Integer" }
+                  }
+                }
+              }
             }],
             "block": {
               "meta":{
@@ -3913,6 +3931,50 @@
                 },
                 {
                   "meta":{
+                    "className":"AssignStep",
+                    "version":1
+                  },
+                  "gizmo":{
+                    "name": {
+                      "meta":{
+                        "className":"StepName",
+                        "version":0
+                      },
+                      "gizmo":{
+                        "customName": { "string": "Graphics=0" }
+                      }
+                    },
+                    "comment": {
+                      "meta":{
+                        "className":"StepComment",
+                        "version":0
+                      },
+                      "gizmo":{
+                        "comment": { "string": "" }
+                      }
+                    },
+                    "expression": {
+                      "meta":{
+                        "className":"Expression",
+                        "version":0
+                      },
+                      "gizmo":{
+                        "text": { "string": "1" }
+                      }
+                    },
+                    "variable": {
+                      "meta":{
+                        "className":"LeftHandSide",
+                        "version":1
+                      },
+                      "gizmo":{
+                        "text": { "string": "Graphics" }
+                      }
+                    }
+                  }
+                },
+                {
+                  "meta":{
                     "className":"LoopStep",
                     "version":4
                   },
@@ -3935,15 +3997,7 @@
                         "comment": { "string": "3" }
                       }
                     },
-                    "variable": [{
-                      "meta":{
-                        "className":"LoopIterationVariableDef",
-                        "version":0
-                      },
-                      "gizmo":{
-                        "id": { "string": "t" }
-                      }
-                    }],
+                    "variable": [],
                     "body": {
                       "meta":{
                         "className":"Block",
@@ -14912,6 +14966,50 @@
                                     },
                                     {
                                       "meta":{
+                                        "className":"AssignStep",
+                                        "version":1
+                                      },
+                                      "gizmo":{
+                                        "name": {
+                                          "meta":{
+                                            "className":"StepName",
+                                            "version":0
+                                          },
+                                          "gizmo":{
+                                            "customName": { "string": "" }
+                                          }
+                                        },
+                                        "comment": {
+                                          "meta":{
+                                            "className":"StepComment",
+                                            "version":0
+                                          },
+                                          "gizmo":{
+                                            "comment": { "string": "" }
+                                          }
+                                        },
+                                        "expression": {
+                                          "meta":{
+                                            "className":"Expression",
+                                            "version":0
+                                          },
+                                          "gizmo":{
+                                            "text": { "string": "=Graphics+1" }
+                                          }
+                                        },
+                                        "variable": {
+                                          "meta":{
+                                            "className":"LeftHandSide",
+                                            "version":1
+                                          },
+                                          "gizmo":{
+                                            "text": { "string": "Graphics" }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "meta":{
                                         "className":"GroupStep",
                                         "version":4
                                       },
@@ -17336,7 +17434,7 @@
                                                                             "version":0
                                                                           },
                                                                           "gizmo":{
-                                                                            "text": { "string": "=\"pane[name=\\\"Thumbnails\\\"] list_item:nth-child(\"+(t+1)+\")\"" }
+                                                                            "text": { "string": "=\"pane[name=\\\"Thumbnails\\\"] list_item:nth-child(\"+Graphics+\")\"" }
                                                                           }
                                                                         }
                                                                       }
