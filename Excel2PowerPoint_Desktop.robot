@@ -3959,7 +3959,7 @@
                         "version":0
                       },
                       "gizmo":{
-                        "text": { "string": "1" }
+                        "text": { "string": "0" }
                       }
                     },
                     "variable": {
