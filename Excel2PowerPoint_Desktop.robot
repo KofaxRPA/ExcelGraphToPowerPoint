@@ -2241,50 +2241,17 @@
                       "gizmo":{
                         "guard": {
                           "meta":{
-                            "className":"ApplicationNotFoundGuard",
+                            "className":"TimeOutGuard",
                             "version":0
                           },
                           "gizmo":{
-                            "finder": {
+                            "seconds": {
                               "meta":{
-                                "className":"ApplicationFinderWithoutName",
+                                "className":"Expression",
                                 "version":0
                               },
                               "gizmo":{
-                                "finder": {
-                                  "meta":{
-                                    "className":"ApplicationDescriptor",
-                                    "version":1
-                                  },
-                                  "gizmo":{
-                                    "deviceFinder": {
-                                      "meta":{
-                                        "className":"DeviceReference",
-                                        "version":0
-                                      },
-                                      "gizmo":{
-                                        "reference": {
-                                          "meta":{
-                                            "className":"NamedFinderReference",
-                                            "version":0
-                                          },
-                                          "gizmo":{
-                                            "id": { "string": "Office365" }
-                                          }
-                                        }
-                                      }
-                                    },
-                                    "applicationSelector": {
-                                      "meta":{
-                                        "className":"Expression",
-                                        "version":0
-                                      },
-                                      "gizmo":{
-                                        "text": { "string": "=\"EXCEL.EXE[title^=\\\"\"+ExcelFileName+\"\\\"]\"" }
-                                      }
-                                    }
-                                  }
-                                }
+                                "text": { "string": "0" }
                               }
                             }
                           }
@@ -17680,34 +17647,17 @@
                                                                     },
                                                                     "finder": {
                                                                       "meta":{
-                                                                        "className":"ApplicationDescriptor",
-                                                                        "version":1
+                                                                        "className":"ApplicationReference",
+                                                                        "version":0
                                                                       },
                                                                       "gizmo":{
-                                                                        "deviceFinder": {
+                                                                        "reference": {
                                                                           "meta":{
-                                                                            "className":"DeviceReference",
+                                                                            "className":"NamedFinderReference",
                                                                             "version":0
                                                                           },
                                                                           "gizmo":{
-                                                                            "reference": {
-                                                                              "meta":{
-                                                                                "className":"NamedFinderReference",
-                                                                                "version":0
-                                                                              },
-                                                                              "gizmo":{
-                                                                                "id": { "string": "Office365" }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "applicationSelector": {
-                                                                          "meta":{
-                                                                            "className":"Expression",
-                                                                            "version":0
-                                                                          },
-                                                                          "gizmo":{
-                                                                            "text": { "string": "POWERPNT.EXE" }
+                                                                            "id": { "string": "Table" }
                                                                           }
                                                                         }
                                                                       }
