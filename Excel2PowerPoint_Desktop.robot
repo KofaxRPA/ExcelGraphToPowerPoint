@@ -19223,355 +19223,6 @@
         },
         {
           "meta":{
-            "className":"GuardedChoiceStep",
-            "version":1
-          },
-          "gizmo":{
-            "name": {
-              "meta":{
-                "className":"StepName",
-                "version":0
-              },
-              "gizmo":{
-                "customName": { "string": "Focus PowerPoint" }
-              }
-            },
-            "comment": {
-              "meta":{
-                "className":"StepComment",
-                "version":0
-              },
-              "gizmo":{
-                "comment": { "string": "" }
-              }
-            },
-            "branches": [{
-              "meta":{
-                "className":"GuardAndBlock",
-                "version":3
-              },
-              "gizmo":{
-                "guard": {
-                  "meta":{
-                    "className":"ApplicationFoundGuard",
-                    "version":0
-                  },
-                  "gizmo":{
-                    "finder": {
-                      "meta":{
-                        "className":"ApplicationFinderWithName",
-                        "version":5
-                      },
-                      "gizmo":{
-                        "name": {
-                          "meta":{
-                            "className":"FinderName",
-                            "version":0
-                          },
-                          "gizmo":{
-                            "id": { "string": "Excel" }
-                          }
-                        },
-                        "finder": {
-                          "meta":{
-                            "className":"ApplicationDescriptor",
-                            "version":1
-                          },
-                          "gizmo":{
-                            "deviceFinder": {
-                              "meta":{
-                                "className":"DeviceReference",
-                                "version":0
-                              },
-                              "gizmo":{
-                                "reference": {
-                                  "meta":{
-                                    "className":"NamedFinderReference",
-                                    "version":0
-                                  },
-                                  "gizmo":{
-                                    "id": { "string": "Office365" }
-                                  }
-                                }
-                              }
-                            },
-                            "applicationSelector": {
-                              "meta":{
-                                "className":"Expression",
-                                "version":0
-                              },
-                              "gizmo":{
-                                "text": { "string": "=\"POWERPNT.EXE[hasFocus=\\\"true\\\"]\"" }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "block": {
-                  "meta":{
-                    "className":"Block",
-                    "version":2
-                  },
-                  "gizmo":{
-                    "steps": []
-                  }
-                }
-              }
-            },
-            {
-              "meta":{
-                "className":"GuardAndBlock",
-                "version":3
-              },
-              "gizmo":{
-                "guard": {
-                  "meta":{
-                    "className":"LocationFoundGuard",
-                    "version":0
-                  },
-                  "gizmo":{
-                    "finder": {
-                      "meta":{
-                        "className":"ComponentFinderWithName",
-                        "version":8
-                      },
-                      "gizmo":{
-                        "name": {
-                          "meta":{
-                            "className":"FinderName",
-                            "version":0
-                          },
-                          "gizmo":{
-                            "id": { "string": "" }
-                          }
-                        },
-                        "finder": {
-                          "meta":{
-                            "className":"ComponentDescriptor",
-                            "version":1
-                          },
-                          "gizmo":{
-                            "applicationFinder": {
-                              "meta":{
-                                "className":"ApplicationDescriptor",
-                                "version":1
-                              },
-                              "gizmo":{
-                                "deviceFinder": {
-                                  "meta":{
-                                    "className":"DeviceReference",
-                                    "version":0
-                                  },
-                                  "gizmo":{
-                                    "reference": {
-                                      "meta":{
-                                        "className":"NamedFinderReference",
-                                        "version":0
-                                      },
-                                      "gizmo":{
-                                        "id": { "string": "Office365" }
-                                      }
-                                    }
-                                  }
-                                },
-                                "applicationSelector": {
-                                  "meta":{
-                                    "className":"Expression",
-                                    "version":0
-                                  },
-                                  "gizmo":{
-                                    "text": { "string": "Windows" }
-                                  }
-                                }
-                              }
-                            },
-                            "componentSelector": {
-                              "meta":{
-                                "className":"Expression",
-                                "version":0
-                              },
-                              "gizmo":{
-                                "text": { "string": "button[name$=\"- PowerPoint\"]" }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "block": {
-                  "meta":{
-                    "className":"Block",
-                    "version":2
-                  },
-                  "gizmo":{
-                    "steps": [{
-                      "meta":{
-                        "className":"MoveMouseStep",
-                        "version":1
-                      },
-                      "gizmo":{
-                        "name": {
-                          "meta":{
-                            "className":"StepName",
-                            "version":0
-                          },
-                          "gizmo":{
-                            "customName": { "string": "" }
-                          }
-                        },
-                        "comment": {
-                          "meta":{
-                            "className":"StepComment",
-                            "version":0
-                          },
-                          "gizmo":{
-                            "comment": { "string": "Click PowerPoint on TaskBar as not active" }
-                          }
-                        },
-                        "finder": {
-                          "meta":{
-                            "className":"ComponentFinderWithName",
-                            "version":8
-                          },
-                          "gizmo":{
-                            "name": {
-                              "meta":{
-                                "className":"FinderName",
-                                "version":0
-                              },
-                              "gizmo":{
-                                "id": { "string": "" }
-                              }
-                            },
-                            "finder": {
-                              "meta":{
-                                "className":"ComponentReference",
-                                "version":0
-                              },
-                              "gizmo":{
-                                "reference": {
-                                  "meta":{
-                                    "className":"PreviousFinderReference",
-                                    "version":0
-                                  },
-                                  "gizmo":{
-                                    
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "offset": {
-                          "meta":{
-                            "className":"NoOffset",
-                            "version":0
-                          },
-                          "gizmo":{
-                            
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "meta":{
-                        "className":"ClickStep",
-                        "version":2
-                      },
-                      "gizmo":{
-                        "name": {
-                          "meta":{
-                            "className":"StepName",
-                            "version":0
-                          },
-                          "gizmo":{
-                            "customName": { "string": "" }
-                          }
-                        },
-                        "comment": {
-                          "meta":{
-                            "className":"StepComment",
-                            "version":0
-                          },
-                          "gizmo":{
-                            "comment": { "string": "" }
-                          }
-                        },
-                        "finder": {
-                          "meta":{
-                            "className":"ApplicationFinderWithName",
-                            "version":5
-                          },
-                          "gizmo":{
-                            "name": {
-                              "meta":{
-                                "className":"FinderName",
-                                "version":0
-                              },
-                              "gizmo":{
-                                "id": { "string": "" }
-                              }
-                            },
-                            "finder": {
-                              "meta":{
-                                "className":"ApplicationReference",
-                                "version":0
-                              },
-                              "gizmo":{
-                                "reference": {
-                                  "meta":{
-                                    "className":"PreviousFinderReference",
-                                    "version":0
-                                  },
-                                  "gizmo":{
-                                    
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "mouseAction": {
-                          "meta":{
-                            "className":"ClickAction",
-                            "version":0
-                          },
-                          "gizmo":{
-                            "button": {
-                              "meta":{
-                                "className":"FixedButton",
-                                "version":0
-                              },
-                              "gizmo":{
-                                "button": { "int": "0" }
-                              }
-                            },
-                            "count": {
-                              "meta":{
-                                "className":"Expression",
-                                "version":0
-                              },
-                              "gizmo":{
-                                "text": { "string": "1" }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }]
-                  }
-                }
-              }
-            }]
-          }
-        },
-        {
-          "meta":{
             "className":"GroupStep",
             "version":4
           },
@@ -19602,6 +19253,355 @@
               },
               "gizmo":{
                 "steps": [{
+                  "meta":{
+                    "className":"GuardedChoiceStep",
+                    "version":1
+                  },
+                  "gizmo":{
+                    "name": {
+                      "meta":{
+                        "className":"StepName",
+                        "version":0
+                      },
+                      "gizmo":{
+                        "customName": { "string": "Focus PowerPoint" }
+                      }
+                    },
+                    "comment": {
+                      "meta":{
+                        "className":"StepComment",
+                        "version":0
+                      },
+                      "gizmo":{
+                        "comment": { "string": "" }
+                      }
+                    },
+                    "branches": [{
+                      "meta":{
+                        "className":"GuardAndBlock",
+                        "version":3
+                      },
+                      "gizmo":{
+                        "guard": {
+                          "meta":{
+                            "className":"ApplicationFoundGuard",
+                            "version":0
+                          },
+                          "gizmo":{
+                            "finder": {
+                              "meta":{
+                                "className":"ApplicationFinderWithName",
+                                "version":5
+                              },
+                              "gizmo":{
+                                "name": {
+                                  "meta":{
+                                    "className":"FinderName",
+                                    "version":0
+                                  },
+                                  "gizmo":{
+                                    "id": { "string": "Excel" }
+                                  }
+                                },
+                                "finder": {
+                                  "meta":{
+                                    "className":"ApplicationDescriptor",
+                                    "version":1
+                                  },
+                                  "gizmo":{
+                                    "deviceFinder": {
+                                      "meta":{
+                                        "className":"DeviceReference",
+                                        "version":0
+                                      },
+                                      "gizmo":{
+                                        "reference": {
+                                          "meta":{
+                                            "className":"NamedFinderReference",
+                                            "version":0
+                                          },
+                                          "gizmo":{
+                                            "id": { "string": "Office365" }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "applicationSelector": {
+                                      "meta":{
+                                        "className":"Expression",
+                                        "version":0
+                                      },
+                                      "gizmo":{
+                                        "text": { "string": "=\"POWERPNT.EXE[hasFocus=\\\"true\\\"]\"" }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "block": {
+                          "meta":{
+                            "className":"Block",
+                            "version":2
+                          },
+                          "gizmo":{
+                            "steps": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "meta":{
+                        "className":"GuardAndBlock",
+                        "version":3
+                      },
+                      "gizmo":{
+                        "guard": {
+                          "meta":{
+                            "className":"LocationFoundGuard",
+                            "version":0
+                          },
+                          "gizmo":{
+                            "finder": {
+                              "meta":{
+                                "className":"ComponentFinderWithName",
+                                "version":8
+                              },
+                              "gizmo":{
+                                "name": {
+                                  "meta":{
+                                    "className":"FinderName",
+                                    "version":0
+                                  },
+                                  "gizmo":{
+                                    "id": { "string": "" }
+                                  }
+                                },
+                                "finder": {
+                                  "meta":{
+                                    "className":"ComponentDescriptor",
+                                    "version":1
+                                  },
+                                  "gizmo":{
+                                    "applicationFinder": {
+                                      "meta":{
+                                        "className":"ApplicationDescriptor",
+                                        "version":1
+                                      },
+                                      "gizmo":{
+                                        "deviceFinder": {
+                                          "meta":{
+                                            "className":"DeviceReference",
+                                            "version":0
+                                          },
+                                          "gizmo":{
+                                            "reference": {
+                                              "meta":{
+                                                "className":"NamedFinderReference",
+                                                "version":0
+                                              },
+                                              "gizmo":{
+                                                "id": { "string": "Office365" }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "applicationSelector": {
+                                          "meta":{
+                                            "className":"Expression",
+                                            "version":0
+                                          },
+                                          "gizmo":{
+                                            "text": { "string": "Windows" }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "componentSelector": {
+                                      "meta":{
+                                        "className":"Expression",
+                                        "version":0
+                                      },
+                                      "gizmo":{
+                                        "text": { "string": "button[name$=\"- PowerPoint\"]" }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "block": {
+                          "meta":{
+                            "className":"Block",
+                            "version":2
+                          },
+                          "gizmo":{
+                            "steps": [{
+                              "meta":{
+                                "className":"MoveMouseStep",
+                                "version":1
+                              },
+                              "gizmo":{
+                                "name": {
+                                  "meta":{
+                                    "className":"StepName",
+                                    "version":0
+                                  },
+                                  "gizmo":{
+                                    "customName": { "string": "" }
+                                  }
+                                },
+                                "comment": {
+                                  "meta":{
+                                    "className":"StepComment",
+                                    "version":0
+                                  },
+                                  "gizmo":{
+                                    "comment": { "string": "Click PowerPoint on TaskBar as not active" }
+                                  }
+                                },
+                                "finder": {
+                                  "meta":{
+                                    "className":"ComponentFinderWithName",
+                                    "version":8
+                                  },
+                                  "gizmo":{
+                                    "name": {
+                                      "meta":{
+                                        "className":"FinderName",
+                                        "version":0
+                                      },
+                                      "gizmo":{
+                                        "id": { "string": "" }
+                                      }
+                                    },
+                                    "finder": {
+                                      "meta":{
+                                        "className":"ComponentReference",
+                                        "version":0
+                                      },
+                                      "gizmo":{
+                                        "reference": {
+                                          "meta":{
+                                            "className":"PreviousFinderReference",
+                                            "version":0
+                                          },
+                                          "gizmo":{
+                                            
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "offset": {
+                                  "meta":{
+                                    "className":"NoOffset",
+                                    "version":0
+                                  },
+                                  "gizmo":{
+                                    
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "meta":{
+                                "className":"ClickStep",
+                                "version":2
+                              },
+                              "gizmo":{
+                                "name": {
+                                  "meta":{
+                                    "className":"StepName",
+                                    "version":0
+                                  },
+                                  "gizmo":{
+                                    "customName": { "string": "" }
+                                  }
+                                },
+                                "comment": {
+                                  "meta":{
+                                    "className":"StepComment",
+                                    "version":0
+                                  },
+                                  "gizmo":{
+                                    "comment": { "string": "" }
+                                  }
+                                },
+                                "finder": {
+                                  "meta":{
+                                    "className":"ApplicationFinderWithName",
+                                    "version":5
+                                  },
+                                  "gizmo":{
+                                    "name": {
+                                      "meta":{
+                                        "className":"FinderName",
+                                        "version":0
+                                      },
+                                      "gizmo":{
+                                        "id": { "string": "" }
+                                      }
+                                    },
+                                    "finder": {
+                                      "meta":{
+                                        "className":"ApplicationReference",
+                                        "version":0
+                                      },
+                                      "gizmo":{
+                                        "reference": {
+                                          "meta":{
+                                            "className":"PreviousFinderReference",
+                                            "version":0
+                                          },
+                                          "gizmo":{
+                                            
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "mouseAction": {
+                                  "meta":{
+                                    "className":"ClickAction",
+                                    "version":0
+                                  },
+                                  "gizmo":{
+                                    "button": {
+                                      "meta":{
+                                        "className":"FixedButton",
+                                        "version":0
+                                      },
+                                      "gizmo":{
+                                        "button": { "int": "0" }
+                                      }
+                                    },
+                                    "count": {
+                                      "meta":{
+                                        "className":"Expression",
+                                        "version":0
+                                      },
+                                      "gizmo":{
+                                        "text": { "string": "1" }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }]
+                          }
+                        }
+                      }
+                    }]
+                  }
+                },
+                {
                   "meta":{
                     "className":"PressKeyStep",
                     "version":1
