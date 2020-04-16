@@ -4933,11 +4933,11 @@
                                                                       "gizmo":{
                                                                         "reference": {
                                                                           "meta":{
-                                                                            "className":"PreviousFinderReference",
+                                                                            "className":"NamedFinderReference",
                                                                             "version":0
                                                                           },
                                                                           "gizmo":{
-                                                                            
+                                                                            "id": { "string": "Excel" }
                                                                           }
                                                                         }
                                                                       }
@@ -19152,11 +19152,11 @@
                                               "gizmo":{
                                                 "reference": {
                                                   "meta":{
-                                                    "className":"PreviousFinderReference",
+                                                    "className":"NamedFinderReference",
                                                     "version":0
                                                   },
                                                   "gizmo":{
-                                                    
+                                                    "id": { "string": "Excel" }
                                                   }
                                                 }
                                               }
