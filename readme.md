@@ -1,5 +1,5 @@
 # Excel to PowerPoint Robot
-This robot creates graphics in Microsoft Excel, copies them into PowerPoint and saves the new PowerPoint in the exact same location as the Excel document.
+This robot creates charts in Microsoft Excel, copies them into PowerPoint and saves the new PowerPoint in the exact same location as the Excel document.
 This robot demonstrates important Desktop Automation features
 * Never using timing guards
 * How to ensure an application has focus
