@@ -2868,7 +2868,7 @@
                         "version":0
                       },
                       "gizmo":{
-                        "comment": { "string": "" }
+                        "comment": { "string": "press ESC in Excel to cancel any cell copying in progress" }
                       }
                     },
                     "variables": [],
@@ -2879,6 +2879,95 @@
                       },
                       "gizmo":{
                         "steps": [{
+                          "meta":{
+                            "className":"PressKeyStep",
+                            "version":1
+                          },
+                          "gizmo":{
+                            "name": {
+                              "meta":{
+                                "className":"StepName",
+                                "version":0
+                              },
+                              "gizmo":{
+                                "customName": { "string": "Press ESC" }
+                              }
+                            },
+                            "comment": {
+                              "meta":{
+                                "className":"StepComment",
+                                "version":0
+                              },
+                              "gizmo":{
+                                "comment": { "string": "" }
+                              }
+                            },
+                            "finder": {
+                              "meta":{
+                                "className":"ApplicationFinderWithName",
+                                "version":5
+                              },
+                              "gizmo":{
+                                "name": {
+                                  "meta":{
+                                    "className":"FinderName",
+                                    "version":0
+                                  },
+                                  "gizmo":{
+                                    "id": { "string": "" }
+                                  }
+                                },
+                                "finder": {
+                                  "meta":{
+                                    "className":"ApplicationReference",
+                                    "version":0
+                                  },
+                                  "gizmo":{
+                                    "reference": {
+                                      "meta":{
+                                        "className":"PreviousFinderReference",
+                                        "version":0
+                                      },
+                                      "gizmo":{
+                                        
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "key": {
+                              "meta":{
+                                "className":"FixedKey",
+                                "version":0
+                              },
+                              "gizmo":{
+                                "virtualKeyCode": { "string": "VK_RETURN" }
+                              }
+                            },
+                            "modifier": {
+                              "meta":{
+                                "className":"FixedKeyModifier",
+                                "version":0
+                              },
+                              "gizmo":{
+                                "shift": { "boolean": "false" },
+                                "ctrl": { "boolean": "false" },
+                                "alt": { "boolean": "false" }
+                              }
+                            },
+                            "count": {
+                              "meta":{
+                                "className":"Expression",
+                                "version":0
+                              },
+                              "gizmo":{
+                                "text": { "string": "1" }
+                              }
+                            }
+                          }
+                        },
+                        {
                           "meta":{
                             "className":"GuardedChoiceStep",
                             "version":1
@@ -2943,11 +3032,11 @@
                                               "gizmo":{
                                                 "reference": {
                                                   "meta":{
-                                                    "className":"NamedFinderReference",
+                                                    "className":"PreviousFinderReference",
                                                     "version":0
                                                   },
                                                   "gizmo":{
-                                                    "id": { "string": "Excel" }
+                                                    
                                                   }
                                                 }
                                               }
