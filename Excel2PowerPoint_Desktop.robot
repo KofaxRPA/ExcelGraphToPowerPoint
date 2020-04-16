@@ -4171,7 +4171,7 @@
                                             "version":0
                                           },
                                           "gizmo":{
-                                            "id": { "string": "" }
+                                            "id": { "string": "Excel" }
                                           }
                                         },
                                         "finder": {
