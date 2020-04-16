@@ -1865,7 +1865,7 @@
                                         "version":0
                                       },
                                       "gizmo":{
-                                        "text": { "string": "=\"EXCEL.EXE[hasFocus=\\\"true\\\"][title^=\\\"\"+ShortFileName+\"\\\"]\"" }
+                                        "text": { "string": "=\"EXCEL.EXE[[title^=\\\"\"+ShortFileName.replaceAll(\".xlsx\",\"\")+\"\\\"]\"" }
                                       }
                                     }
                                   }
@@ -2640,7 +2640,7 @@
                                                     "version":0
                                                   },
                                                   "gizmo":{
-                                                    "text": { "string": "=\"EXCEL.EXE[title=\\\"\"+ShortFileName+\" - Excel\\\"]\"" }
+                                                    "text": { "string": "=\"EXCEL.EXE[[title^=\\\"\"+ShortFileName.replaceAll(\".xlsx\",\"\")+\"\\\"]\"" }
                                                   }
                                                 }
                                               }
@@ -9031,7 +9031,7 @@
                                                                 "version":0
                                                               },
                                                               "gizmo":{
-                                                                "customName": { "string": "Pie Graph" }
+                                                                "customName": { "string": "Pie Chart" }
                                                               }
                                                             },
                                                             "comment": {
@@ -9577,7 +9577,7 @@
                                                                 "version":0
                                                               },
                                                               "gizmo":{
-                                                                "customName": { "string": "Wait for Graph" }
+                                                                "customName": { "string": "Wait for Chart" }
                                                               }
                                                             },
                                                             "comment": {
@@ -9613,7 +9613,7 @@
                                                                             "version":0
                                                                           },
                                                                           "gizmo":{
-                                                                            "id": { "string": "" }
+                                                                            "id": { "string": "Chart" }
                                                                           }
                                                                         },
                                                                         "finder": {
@@ -9645,7 +9645,7 @@
                                                                                 "version":0
                                                                               },
                                                                               "gizmo":{
-                                                                                "text": { "string": "Button[name=\"Add a Chart Element (such as a Title)\"]" }
+                                                                                "text": { "string": "chart__pie" }
                                                                               }
                                                                             }
                                                                           }
