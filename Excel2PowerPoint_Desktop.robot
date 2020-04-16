@@ -3440,6 +3440,82 @@
                                           }
                                         }
                                       }
+                                    },
+                                    {
+                                      "meta":{
+                                        "className":"GuardAndBlock",
+                                        "version":3
+                                      },
+                                      "gizmo":{
+                                        "guard": {
+                                          "meta":{
+                                            "className":"LocationFoundGuard",
+                                            "version":0
+                                          },
+                                          "gizmo":{
+                                            "finder": {
+                                              "meta":{
+                                                "className":"ComponentFinderWithName",
+                                                "version":8
+                                              },
+                                              "gizmo":{
+                                                "name": {
+                                                  "meta":{
+                                                    "className":"FinderName",
+                                                    "version":0
+                                                  },
+                                                  "gizmo":{
+                                                    "id": { "string": "" }
+                                                  }
+                                                },
+                                                "finder": {
+                                                  "meta":{
+                                                    "className":"ComponentDescriptor",
+                                                    "version":1
+                                                  },
+                                                  "gizmo":{
+                                                    "applicationFinder": {
+                                                      "meta":{
+                                                        "className":"ApplicationReference",
+                                                        "version":0
+                                                      },
+                                                      "gizmo":{
+                                                        "reference": {
+                                                          "meta":{
+                                                            "className":"PreviousFinderReference",
+                                                            "version":0
+                                                          },
+                                                          "gizmo":{
+                                                            
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "componentSelector": {
+                                                      "meta":{
+                                                        "className":"Expression",
+                                                        "version":0
+                                                      },
+                                                      "gizmo":{
+                                                        "text": { "string": "Worksheet" }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "block": {
+                                          "meta":{
+                                            "className":"Block",
+                                            "version":2
+                                          },
+                                          "gizmo":{
+                                            "steps": []
+                                          }
+                                        }
+                                      }
                                     }]
                                   }
                                 },
