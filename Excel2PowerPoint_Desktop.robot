@@ -2868,7 +2868,7 @@
                         "version":0
                       },
                       "gizmo":{
-                        "comment": { "string": "press ESC in Excel to cancel any cell copying in progress" }
+                        "comment": { "string": "" }
                       }
                     },
                     "variables": [],
