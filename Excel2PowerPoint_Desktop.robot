@@ -2899,7 +2899,7 @@
                                 "version":0
                               },
                               "gizmo":{
-                                "comment": { "string": "" }
+                                "comment": { "string": "press ESC in Excel to cancel any cell copying in progress" }
                               }
                             },
                             "finder": {
@@ -17773,11 +17773,11 @@
                                                                       "gizmo":{
                                                                         "reference": {
                                                                           "meta":{
-                                                                            "className":"NamedFinderReference",
+                                                                            "className":"PreviousFinderReference",
                                                                             "version":0
                                                                           },
                                                                           "gizmo":{
-                                                                            "id": { "string": "Table" }
+                                                                            
                                                                           }
                                                                         }
                                                                       }
@@ -17857,7 +17857,7 @@
                                                                             "version":0
                                                                           },
                                                                           "gizmo":{
-                                                                            "text": { "string": "0.2" }
+                                                                            "text": { "string": "5" }
                                                                           }
                                                                         }
                                                                       }
